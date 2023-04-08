@@ -96,7 +96,7 @@ def home(request):
         'room_count':room_count,
         'room_messages':room_messages,
     }
-    return render(request, 'base/home.html', context)
+    return render(request, 'base/index.html', context)
     
     # template = loader.get_template('base/home.html')
     # return HttpResponse(template.render())
